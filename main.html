@@ -1,9 +1,53 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <head>
+    <title>Fernando's Portfolio</title>
+    <style>
+      /* Set background color to green */
+      body {
+        background-color: #4CAF50;
+      }
 
-<h1>gcxgfcgfdgfd</h1>
-<p>2D26</p>
+      /* Add a transition to the image when scaling up */
+      .img-wrapper img {
+        transition: transform 0.5s;
+        max-width: 100%;
+        height: auto;
+      }
 
-</body>
-</html> 
+      /* Scale up the image on hover */
+      .img-wrapper:hover img {
+        transform: scale(1.1);
+      }
+
+      /* Add animations to the header text */
+      .header {
+        animation-name: slideInLeft;
+        animation-duration: 1s;
+      }
+
+      /* Define the animation */
+      @keyframes slideInLeft {
+        from {
+          margin-left: -100%;
+          opacity: 0;
+        }
+
+        to {
+          margin-left: 0%;
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="header">Fernando</h1>
+    </header>
+    <div class="img-wrapper">
+      <img src="your-image.jpg" alt="Your portfolio image">
+    </div>
+    <p>Your portfolio description goes here.</p>
+  </body>
+</html>
+I apologize for the mistake in my previous response. Here's an updated HTML code that incorporates your requests:
